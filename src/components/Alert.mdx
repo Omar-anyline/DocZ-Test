@@ -1,0 +1,29 @@
+---
+name: Alert
+menu: Components
+---
+
+import { Playground, Props } from 'docz'
+import { Alert } from './Alert.tsx'
+
+# Alert
+
+## Properties
+
+<Props of={Alert} />
+
+## Basic usage
+
+<Playground>
+  <Alert kind="warning">Some warning</Alert>
+  <Alert kind="info">holla</Alert>
+</Playground>
+
+## Using different kinds
+
+<Playground>
+  <Alert kind="info">Some info</Alert>
+  <Alert kind="positive">Some positive</Alert>
+  <Alert kind="negative">Some negative</Alert>
+  <Alert kind="warning">Some warning</Alert>
+</Playground>
